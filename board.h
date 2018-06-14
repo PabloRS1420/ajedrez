@@ -21,6 +21,7 @@ char square_get_piece(Square *s);
 Status square_set_row(Square *s, int i);
 Status square_set_column(Square *s, char i);
 Status square_set_piece(Square *s, char i);
+Status square_edit(Square *s, int i, char j, char k);
 Square square_copy(const Square *s);
 int square_print(const Square *s);
 Square *board_get_black_king(const Board *b);
